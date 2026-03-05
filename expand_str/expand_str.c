@@ -22,7 +22,7 @@ void	epur_str(char str)
 			i++;
 
 		if (str[i])
-			write(1, " ", 1);
+			write(1, "   ", 3);
 	}
 }
 
