@@ -22,8 +22,8 @@ int	do_op(int a, int b, char op)
 int	main(int argc, char **argv)
 {
 	int	a;
-	int	b;
 	char	op;
+	int	b;
 	int	result;
 
 	if (argc == 4)
