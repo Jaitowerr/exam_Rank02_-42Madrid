@@ -27,7 +27,7 @@ size_t	ft_strspn(const char *s, const char *accept)
 
 
 // justo lo contrario que strcspn. consiste únicamente en caracteres que están en accept
-// En cuanto encuentra una letra en s que NO está en accept, se detiene y devuelve la cuenta.
+// En cuanto encuentra una letra de s que NO está en accept, se detiene y devuelve la cuenta.
 
 /*
 
