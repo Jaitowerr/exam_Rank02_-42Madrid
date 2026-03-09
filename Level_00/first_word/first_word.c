@@ -9,7 +9,7 @@ void	first_word(char *src)
 	while (src[i] == ' ' || src[i] == '\t' )
 		i++;
 
-	while (src[i] != '\0' && src[i] != ' ' || src[i] != '\t' )
+	while (src[i] != '\0' && src[i] != ' ' && src[i] != '\t')
 	{
 		write(1, &src[i], 1);
 		i++;
