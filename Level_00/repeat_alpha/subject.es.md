@@ -1,9 +1,9 @@
+## Subject
+
+```C
 Nombre de la tarea: repeat_alpha
-
 Archivos esperados: repeat_alpha.c
-
 Funciones permitidas: write
-
 --------------------------------------------------------------------------------
 
 Escribe un programa llamado repeat_alpha que tome una cadena y la muestre
@@ -30,3 +30,5 @@ $>
 $>./repeat_alpha "" | cat -e
 $
 $>
+
+```

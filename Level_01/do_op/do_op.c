@@ -21,10 +21,10 @@ int	do_op(int a, int b, char op)
 
 int	main(int argc, char **argv)
 {
-	int	a;
 	char	op;
-	int	b;
-	int	result;
+	int		a;
+	int		b;
+	int		result;
 
 	if (argc == 4)
 	{

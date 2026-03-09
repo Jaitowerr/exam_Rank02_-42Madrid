@@ -6,19 +6,19 @@
 
 int	pgcd(int a, int b)
 {
-	int	i;
+	int	n;
 
 	if (a < b)
-		i = a;
+		n = a;
 	else
-		i = b;
+		n = b;
 
 
-	while (i >= 1)
+	while (n >= 1)
 	{
-		if (a % i == 0 && b % i == 0)
-			return (i);
-		i--;
+		if (a % n == 0 && b % n == 0)
+			return (n);
+		n--;
 	}
 	return (1); // caso seguro, pero por si acaso
 }

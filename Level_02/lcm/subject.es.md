@@ -1,3 +1,6 @@
+## Subject
+
+```BASH
 Nombre de la tarea: lcm
 Archivos esperados: lcm.c
 Funciones permitidas: Ninguna
@@ -26,3 +29,5 @@ Si al menos uno de los enteros es nulo, el LCM es igual a 0.
 Tu función debe tener el siguiente prototipo:
 
   unsigned int    lcm(unsigned int a, unsigned int b);
+
+```

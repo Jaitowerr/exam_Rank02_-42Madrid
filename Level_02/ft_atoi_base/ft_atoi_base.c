@@ -39,7 +39,6 @@ int	ft_atoi_base(const char *str, int str_base)
 
 	while (str[i] != '\0')
 	{
-		int val;
         
         val = get_val(str[i]);
 		if (val == -1 || val >= str_base)

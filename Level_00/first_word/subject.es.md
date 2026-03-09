@@ -1,9 +1,9 @@
+## Subject
+
+```C
 Nombre de la tarea: first_word
-
 Archivos esperados: first_word.c
-
 Funciones permitidas: write
-
 --------------------------------------------------------------------------------
 
 Escribe un programa que tome una cadena y muestre su primera palabra, seguida de un
@@ -18,23 +18,15 @@ un salto de línea.
 Ejemplos:
 
 $> ./first_word "FOR PONY" | cat -e
-
 FOR$
-
-$> ./first_word "this        ...    is sparta, then again, maybe not" | cat -e
-
+$> ./first_word "this        ...    is sparta, then again, maybe    not" | cat -e
 this$
-
 $> ./first_word "   " | cat -e
-
 $
-
 $> ./first_word "a" "b" | cat -e
-
 $
-
 $> ./first_word "  lorem,ipsum  " | cat -e
-
 lorem,ipsum$
-
 $>
+
+```

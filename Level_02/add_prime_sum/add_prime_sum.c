@@ -58,9 +58,9 @@ void	ft_putnbr(int n)
 
 int	main(int argc, char **argv)
 {
-	int	n;
-	int	i;
-	int	sum;
+	int		n;
+	int		i;
+	int		sum;
 
 	if (argc != 2)
 	{

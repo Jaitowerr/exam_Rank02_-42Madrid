@@ -1,20 +1,35 @@
+## Subject
+
+```C
+
 Nombre de la asignación: rotone_13
 Archivos esperados: rotone_13.c
 Funciones permitidas: write
 --------------------------------------------------------------------------------
 
-Escribe un programa que tome un número positivo (o cero) expresado en base 10,
-y lo muestre en base 16 (letras minúsculas) seguido de una nueva línea.
 
-Si el número de parámetros no es 1, el programa muestra una nueva línea.
+Escribe un programa que tome una cadena y la muestre, reemplazando cada una de sus
+letras por la letra 13 espacios adelante en orden alfabético.
 
-Ejemplos:
+'z' se convierte en 'm' y 'Z' se convierte en 'M'. El caso permanece sin cambios.
 
-$> ./print_hex "10" | cat -e
-a$
-$> ./print_hex "255" | cat -e
-ff$
-$> ./print_hex "5156454" | cat -e
-4eae66$
-$> ./print_hex | cat -e
+La salida estará seguida de un salto de línea.
+
+Si el número de argumentos no es 1, el programa muestra un salto de línea.
+
+Ejemplo:
+
+$>./rot_13 "abc"
+nop
+$>./rot_13 "My horse is Amazing." | cat -e
+Zl ubefr vf Nznmvat.$
+$>./rot_13 "AkjhZ zLKIJz , 23y " | cat -e
+NxwuM mYXVWm , 23l $
+$>./rot_13 | cat -e
 $
+$>
+$>./rot_13 "" | cat -e
+$
+$>
+
+```

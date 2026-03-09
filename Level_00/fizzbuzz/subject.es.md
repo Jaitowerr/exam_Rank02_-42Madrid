@@ -1,9 +1,9 @@
+## Subject
+
+```C
 Nombre de la tarea: fizzbuzz
-
 Archivos esperados: fizzbuzz.c
-
 Funciones permitidas: write
-
 --------------------------------------------------------------------------------
 
 Escribe un programa que imprima los números del 1 al 100, cada uno separado por un
@@ -18,45 +18,26 @@ Si el número es tanto múltiplo de 3 como múltiplo de 5, imprime 'fizzbuzz' en
 Ejemplo:
 
 $>./fizzbuzz
-
 1
-
 2
-
 fizz
-
 4
-
 buzz
-
 fizz
-
 7
-
 8
-
 fizz
-
 buzz
-
 11
-
 fizz
-
 13
-
 14
-
 fizzbuzz
-
 [...]
-
 97
-
 98
-
 fizz
-
 buzz
-
 $>
+
+```
